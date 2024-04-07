@@ -2,7 +2,7 @@
 
 # Login page
 
-Login page adaptable to the size of computer screens, tablets and cell phones created with pure CSS.
+Project challenge created by Codelandia. Login page adaptable to the size of computer screens, tablets and cell phones created with pure CSS.
 
 
 ## Installation
