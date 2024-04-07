@@ -205,3 +205,56 @@ input[type="checkbox"] + label:hover {
   opacity: 0.9;
   text-decoration: underline;
 }
+
+@media (max-width: 1000px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+  aside {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  section {
+    padding: 0 24px;
+  }
+
+  form {
+    max-width: 327px;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .inputs label {
+    font-size: 0.875rem;
+  }
+
+  .loginOptions label, .loginOptions a {
+    font-size: 0.875rem;
+  }
+
+  .buttons button {
+    font-size: 1rem;
+  }
+
+  .buttons button:first-child {
+   padding: 0.875rem 0;
+  }
+
+  .buttons button:last-child img {
+    height: 16px;
+    width: 16px;
+  }
+
+  .register {
+    font-size: 1rem;
+  }
+}
